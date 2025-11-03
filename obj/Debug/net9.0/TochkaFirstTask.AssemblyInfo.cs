@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TochkaFirstTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3fde2f1586d2a9d553442eef07f97de4246a575")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+680e036f96d00e33f7a40ff1f9a677a69faa25e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("TochkaFirstTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TochkaFirstTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

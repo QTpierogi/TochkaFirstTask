@@ -314,7 +314,7 @@ class Program
 
         var currentHash = solvedState.GetHashCode();
         if (!lowestEnergies.TryGetValue(currentHash, out var result))
-            return -1;
+            return 0;
 
         return result;
     }
@@ -360,12 +360,7 @@ class Program
             lines.Add(line);
         }
 
-        Stopwatch sw = new Stopwatch();
-        sw.Start();
-
         int result = Solve(lines);
         Console.WriteLine(result);
-        sw.Stop();
-        Console.WriteLine(sw.ElapsedMilliseconds);
     }
 }
