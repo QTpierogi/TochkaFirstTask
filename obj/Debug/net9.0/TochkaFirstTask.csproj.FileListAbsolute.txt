@@ -1,0 +1,14 @@
+D:\repos\TochkaFirstTask\bin\Debug\net9.0\TochkaFirstTask.exe
+D:\repos\TochkaFirstTask\bin\Debug\net9.0\TochkaFirstTask.deps.json
+D:\repos\TochkaFirstTask\bin\Debug\net9.0\TochkaFirstTask.runtimeconfig.json
+D:\repos\TochkaFirstTask\bin\Debug\net9.0\TochkaFirstTask.dll
+D:\repos\TochkaFirstTask\bin\Debug\net9.0\TochkaFirstTask.pdb
+D:\repos\TochkaFirstTask\obj\Debug\net9.0\TochkaFirstTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\TochkaFirstTask\obj\Debug\net9.0\TochkaFirstTask.AssemblyInfoInputs.cache
+D:\repos\TochkaFirstTask\obj\Debug\net9.0\TochkaFirstTask.AssemblyInfo.cs
+D:\repos\TochkaFirstTask\obj\Debug\net9.0\TochkaFirstTask.csproj.CoreCompileInputs.cache
+D:\repos\TochkaFirstTask\obj\Debug\net9.0\TochkaFirstTask.dll
+D:\repos\TochkaFirstTask\obj\Debug\net9.0\refint\TochkaFirstTask.dll
+D:\repos\TochkaFirstTask\obj\Debug\net9.0\TochkaFirstTask.pdb
+D:\repos\TochkaFirstTask\obj\Debug\net9.0\TochkaFirstTask.genruntimeconfig.cache
+D:\repos\TochkaFirstTask\obj\Debug\net9.0\ref\TochkaFirstTask.dll
