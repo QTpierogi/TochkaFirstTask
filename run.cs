@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Diagnostics;
 
 class Program
 {
-    enum TileType
+    public enum TileType
     {
         Empty, Wall, Hall, Room
     }
 
-    struct Dot
+    public struct Dot
     {
         public int X;
         public int Y;
@@ -26,7 +27,7 @@ class Program
     }
 
 
-    struct Tile
+    public struct Tile
     {
         public TileType type;
         public bool occupiable;
@@ -67,7 +68,7 @@ class Program
         }
     }
 
-    class Board
+    public class Board
     {
         public Tile[][] map;
         private int sizeX;
@@ -245,7 +246,7 @@ class Program
                 var tilesAround = Neighbourhs(start)
                     .Where(n => Get(n) is Tile field && field.occupiable && !field.isOccupied && !visited.Any(m => m.Item1 == n));
 
-                foreach (var field in tilesAround)
+                foreach (Dot field in tilesAround)
                 {
                     visited.Add((field, distance));
                     GetReachableFieldsHelper(field, distance + 1);
