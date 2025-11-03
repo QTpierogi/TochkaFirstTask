@@ -12,3 +12,4 @@ D:\repos\TochkaFirstTask\obj\Debug\net9.0\refint\TochkaFirstTask.dll
 D:\repos\TochkaFirstTask\obj\Debug\net9.0\TochkaFirstTask.pdb
 D:\repos\TochkaFirstTask\obj\Debug\net9.0\TochkaFirstTask.genruntimeconfig.cache
 D:\repos\TochkaFirstTask\obj\Debug\net9.0\ref\TochkaFirstTask.dll
+D:\repos\TochkaFirstTask\obj\Debug\net9.0\TochkaFirstTask.sourcelink.json
