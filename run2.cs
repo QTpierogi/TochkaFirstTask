@@ -178,7 +178,7 @@ class Run2
 
             if (regularRooms.Contains(from) && secureRooms.Contains(to))
             {
-                var corridor = (from, to);
+                var corridor = (to, from);
                 if (lockableCorridors.Contains(corridor))
                     return corridor;
             }
