@@ -85,7 +85,7 @@ class Run2
         {
             foreach (char neighbor in graph[room])
             {
-                if (regularRooms.Contains(neighbor) &&!lockedCorridors.Contains((room, neighbor)) &&
+                if (regularRooms.Contains(neighbor) && !lockedCorridors.Contains((room, neighbor)) &&
                     !lockedCorridors.Contains((neighbor, room)))
                     lockable.Add((room, neighbor));
             }
@@ -98,6 +98,7 @@ class Run2
         char bestTarget = '[';
         List<char> bestPath = null;
         int minDistance = 100;
+        List<List<char>> paths = new List<List<char>>();
 
         foreach (char target in secureRooms)
         {
@@ -110,10 +111,13 @@ class Run2
                 {
                     minDistance = distance;
                     bestTarget = target;
-                    bestPath = path;
+                    //bestPath = path;
+                    paths.Add(path);
                 }
             }
         }
+        if (paths.Count > 0)
+            bestPath = paths.Where(p => p.Count() - 1 == minDistance && p.Last() == bestTarget).Order().First();
         return (bestTarget, bestPath);
     }
 
@@ -184,7 +188,7 @@ class Run2
             if (corridor.Item2 == target)
                 return corridor;
         }
-        return lockableCorridors[0];
+        return lockableCorridors.Order().First();
     }
 
     private static char MoveVirus(char currentPosition)
