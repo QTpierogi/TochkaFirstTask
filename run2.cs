@@ -91,7 +91,7 @@ class Run2
                     lockable.Add((room, neighbor));
             }
         }
-        return lockable;
+        return lockable.OrderBy(c => c.Item1).ThenBy(c => c.Item2).ToList();
     }
 
     private static (char target, List<char> path) FindVirusTargetAndPath(char currentPosition)
