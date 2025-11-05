@@ -112,7 +112,6 @@ class Run2
                 {
                     minDistance = distance;
                     bestTarget = target;
-                    //bestPath = path;
                     paths.Add(path);
                 }
             }
@@ -171,22 +170,10 @@ class Run2
     private static (char, char) FindBestCorridorToLock(List<(char, char)> lockableCorridors, List<char> virusPath, char currentPosition)
     {
         if (virusPath == null) return lockableCorridors[0];
-        for (int i = 0; i < virusPath.Count - 1; i++)
-        {
-            char from = virusPath[i];
-            char to = virusPath[i + 1];
-
-            if (regularRooms.Contains(from) && secureRooms.Contains(to))
-            {
-                var corridor = (to, from);
-                if (lockableCorridors.Contains(corridor))
-                    return corridor;
-            }
-        }
         char target = virusPath[virusPath.Count - 1];
         foreach (var corridor in lockableCorridors)
         {
-            if (corridor.Item2 == target)
+            if (corridor.Item1 == target)
                 return corridor;
         }
         return lockableCorridors.Order().First();
