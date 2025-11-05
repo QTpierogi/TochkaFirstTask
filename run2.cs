@@ -58,8 +58,8 @@ class Run2
         while (true)
         {
             line = Console.ReadLine();
-            line = line.Trim();
             if (string.IsNullOrEmpty(line)) break;
+            line = line.Trim();
             var parts = line.Split('-');
             if (parts.Length == 2)
             {
