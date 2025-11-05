@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\repos\\TochkaFirstTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F83EB7CA-8BD9-4F68-89D0-041332FB55F3}|TochkaFirstTask.csproj|d:\\repos\\tochkafirsttask\\run2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F83EB7CA-8BD9-4F68-89D0-041332FB55F3}|TochkaFirstTask.csproj|solutionrelative:run2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5DFB3FE-A680-4E39-A332-38BC1E256BF7}|..\\TochkaSecondTask\\TochkaSecondTask.csproj|d:\\repos\\tochkasecondtask\\run2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5DFB3FE-A680-4E39-A332-38BC1E256BF7}|..\\TochkaSecondTask\\TochkaSecondTask.csproj|d:\\repos\\tochkasecondtask\\run2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F83EB7CA-8BD9-4F68-89D0-041332FB55F3}|TochkaFirstTask.csproj|d:\\repos\\tochkafirsttask\\run2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F83EB7CA-8BD9-4F68-89D0-041332FB55F3}|TochkaFirstTask.csproj|solutionrelative:run2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,30 +17,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "run2.cs",
               "DocumentMoniker": "D:\\repos\\TochkaFirstTask\\run2.cs",
               "RelativeDocumentMoniker": "run2.cs",
               "ToolTip": "D:\\repos\\TochkaFirstTask\\run2.cs",
               "RelativeToolTip": "run2.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAwwE0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T15:54:48.439Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Run2.cs",
               "DocumentMoniker": "D:\\repos\\TochkaSecondTask\\Run2.cs",
               "RelativeDocumentMoniker": "..\\TochkaSecondTask\\Run2.cs",
-              "ToolTip": "D:\\repos\\TochkaSecondTask\\Run2.cs",
-              "RelativeToolTip": "..\\TochkaSecondTask\\Run2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\repos\\TochkaSecondTask\\Run2.cs*",
+              "RelativeToolTip": "..\\TochkaSecondTask\\Run2.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T11:24:34.206Z",
               "EditorCaption": ""
