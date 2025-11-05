@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TochkaFirstTask", "TochkaFirstTask.csproj", "{F83EB7CA-8BD9-4F68-89D0-041332FB55F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TochkaSecondTask", "..\TochkaSecondTask\TochkaSecondTask.csproj", "{B5DFB3FE-A680-4E39-A332-38BC1E256BF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{F83EB7CA-8BD9-4F68-89D0-041332FB55F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F83EB7CA-8BD9-4F68-89D0-041332FB55F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F83EB7CA-8BD9-4F68-89D0-041332FB55F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5DFB3FE-A680-4E39-A332-38BC1E256BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5DFB3FE-A680-4E39-A332-38BC1E256BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5DFB3FE-A680-4E39-A332-38BC1E256BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5DFB3FE-A680-4E39-A332-38BC1E256BF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A443A872-5D7C-41C6-8E2F-DB0D8D0E3CD8}
 	EndGlobalSection
 EndGlobal
