@@ -112,13 +112,15 @@ class Run2
                 {
                     minDistance = distance;
                     bestTarget = target;
-                    //bestPath = path;
                     paths.Add(path);
                 }
             }
         }
         if (paths.Count > 0)
-            bestPath = paths.Where(p => p.Count() - 1 == minDistance && p.Last() == bestTarget).Order().First();
+        {
+            var orderedPaths = paths.Where(p => p.Count() - 1 == minDistance && p.Last() == bestTarget).Order();
+            bestPath = orderedPaths.First();
+        }
         return (bestTarget, bestPath);
     }
 
@@ -178,7 +180,7 @@ class Run2
 
             if (regularRooms.Contains(from) && secureRooms.Contains(to))
             {
-                var corridor = (from, to);
+                var corridor = (to, from);
                 if (lockableCorridors.Contains(corridor))
                     return corridor;
             }
@@ -186,7 +188,7 @@ class Run2
         char target = virusPath[virusPath.Count - 1];
         foreach (var corridor in lockableCorridors)
         {
-            if (corridor.Item2 == target)
+            if (corridor.Item1 == target)
                 return corridor;
         }
         return lockableCorridors.Order().First();

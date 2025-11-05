@@ -27,10 +27,9 @@
               "RelativeDocumentMoniker": "run2.cs",
               "ToolTip": "D:\\repos\\TochkaFirstTask\\run2.cs",
               "RelativeToolTip": "run2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T15:54:48.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T15:54:48.439Z"
             },
             {
               "$type": "Document",
@@ -38,9 +37,9 @@
               "Title": "Run2.cs",
               "DocumentMoniker": "D:\\repos\\TochkaSecondTask\\Run2.cs",
               "RelativeDocumentMoniker": "..\\TochkaSecondTask\\Run2.cs",
-              "ToolTip": "D:\\repos\\TochkaSecondTask\\Run2.cs*",
-              "RelativeToolTip": "..\\TochkaSecondTask\\Run2.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "ToolTip": "D:\\repos\\TochkaSecondTask\\Run2.cs",
+              "RelativeToolTip": "..\\TochkaSecondTask\\Run2.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwCEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T11:24:34.206Z",
               "EditorCaption": ""
